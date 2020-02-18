@@ -1,0 +1,9 @@
+package com.cg.ecom.exception;
+
+public class LoginException extends Exception{
+
+	/***This exception is raised when entered ID or password do not match the values in repository***/
+	public LoginException(String message) {
+		super(message);
+	}
+}
